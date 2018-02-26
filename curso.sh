@@ -1,7 +1,7 @@
 #!/bin/sh
 
 clear
-echo "Hola, Dime cu\ál es tu nombre? "
+echo "Hola, Dime cuál es tu nombre? "
 
 read nombre 
 
