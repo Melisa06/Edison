@@ -1,13 +1,19 @@
 #!/bin/sh
 
-echo "Hola, Dime cuál es tu nombre: "
+clear
+echo "Hola, Dime cu\ál es tu nombre? "
 
 read nombre 
 
-echo "Hola bienvenido al laboratorio  $nombre"
-echo "Mi nombre es Edison pero a Melisa le gutsa llamarme Edi"
-echo "Yo estoy listo para que veas lo que puedo hacer"
-echo "Elije una oacción a realizar"
+echo "Hola $nombre bienvenido al laboratorio"
+echo " "
+echo "Mi nombre es Edison, pero a Melisa le gusta llamarme Edi"
+echo " "
+sleep 3s #wait x seconds
+echo "Estoy listo para jugar contigo"
+echo " "
+sleep 3s
+echo "¿Qué quieres hacer?"
  echo "1) Conocer Temperatura y Himedad"
  echo "2) Cambiar colores" 
  echo "3) Otro "
