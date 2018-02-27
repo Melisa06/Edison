@@ -26,7 +26,8 @@ case $INPUT_STRING in
    ;;
 
  2) echo "Haz elegido cambiar colores a la pantalla"
-  ;;
+	./colores.sh  
+	 ;;
  3) echo "otro"
   ;;
  *) echo "Esta no es una opcion del menu"
