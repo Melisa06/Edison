@@ -14,7 +14,7 @@ echo "Estoy listo para jugar contigo"
 echo " "
 sleep 3s
 echo "¿Qué quieres hacer?"
- echo "1) Conocer Temperatura y Himedad"
+ echo "1) Conocer Temperatura y Humedad"
  echo "2) Cambiar colores" 
  echo "3) Otro "
 while : 
