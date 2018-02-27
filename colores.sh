@@ -6,7 +6,7 @@ echo "Después tu me diras que color quieres ver en la pantalla"
  echo "c) Verde"
  echo "d) Rosa"
  echo "e) Mi color preferido"
- 
+
  while : 
  do 
 	 read INPUT_STRING
@@ -26,7 +26,8 @@ echo "Después tu me diras que color quieres ver en la pantalla"
 	       d) echo "Mira el color rosa"
 		       python colors.py 217 59 209 
 		       ;;
-	       e) echo "Mi color favorito es:  "
+	       e) echo "Mi color favorito es:  " 
+		       python colorRandom.py   
 		       ;;
 	       *) echo "No has elegido ningun color"
 		       ;;  
