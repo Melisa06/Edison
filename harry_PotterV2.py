@@ -16,7 +16,7 @@ buzzer.playSound(1213,600000)
 buzzer.playSound(1020,200000)
 buzzer.playSound(1287,800000)
 buzzer.playSound(1145,400000)
-buzzer.playSound(1620,160000)
+buzzer.playSound(1620,1600000)
 
 del buzzer
 
