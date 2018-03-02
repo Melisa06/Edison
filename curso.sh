@@ -20,7 +20,7 @@ sleep 3s
 echo "¿Qué quieres hacer?"
  echo "1) Conocer Temperatura y Humedad"
  echo "2) Cambiar colores" 
- echo "3) Otro "
+ echo "3) Sonidos"
  ##realizamos un While con case 
 while : 
 do 
@@ -36,8 +36,10 @@ case $INPUT_STRING in
  2) echo "Haz elegido cambiar colores a la pantalla"
 	./colores.sh  
 	 ;;
- 3) echo "otro"
-  ;;
+ 3) echo "quieres escuchar una cancion?"
+	 ./menu_musica.sh
+
+       	 ;;
 
   ##en caso de escribir algo de lo que no esta seleccionado mostrara otro 
   ##Menu 

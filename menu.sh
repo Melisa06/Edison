@@ -8,7 +8,7 @@ echo "Que quieres hacer ahora?"
 
 echo "1) Conocer la temperatura y Humedad" 
 echo "2) Cambiar colores"
-echo "3) Otro"
+echo "3) Canciones"
 
 ###Elegir las opciones 
 while : 
@@ -24,10 +24,11 @@ do
 	       2) echo "Cambiemos los coloresa la pantalla" 
 		       ./colores.sh
 		       ;;
-	       3) echo "Otro" 
+	       3) echo "Canciones"
+		     ./menu_musica.sh 
 		       ;; 
 	       *)echo "No has seleccionado una opcion valida"
-		       
+		       ./menu.sh
 		       break
 		       ;; 
        esac 
